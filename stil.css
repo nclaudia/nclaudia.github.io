@@ -1,0 +1,65 @@
+body{
+	background-color: #3B3131;
+  		background-image: url(mobile.jpg);
+  		background-size: cover;
+  		background-position: 100% 0;
+  		background-repeat: no-repeat;
+  		font-family: Arial;
+  		line-height: 1;
+  		color: black;
+  		margin: 0px;
+  		padding: 0px;
+  		border: 0px;
+  		outline: 0px;
+  		font-weight: inherit;
+  		font-style: inherit;
+  		font-size: 100%;
+  		vertical-align: baseline;
+}
+#page-wrap{
+	width: 90%;
+	height: 500px;
+		margin: 0px auto;
+		padding: 30px;
+		background: rgba(221, 220, 228, 0.78);
+}
+.but{
+	position: absolute;
+	margin-left: 580px;
+}
+header{
+	clear: both;
+	margin-bottom: 20px;
+}
+button{
+	background: blue;
+	color: #FFF;
+	border: none;
+	border-radius: 7px;
+	font-size: 14px;
+	font-weight: bold;
+	cursor: pointer;
+	padding: 10px;
+}
+ img{
+width: 250px;
+height: 250px;
+position: absolute;
+margin-left: 500px;
+margin-top: 60px;
+}
+
+p{
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+.p{
+	margin-top: 100px;
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+
+
