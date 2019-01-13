@@ -1,0 +1,118 @@
+body{
+	background-color: #3B3131;
+  	background-image: url(mobile.jpg);
+  	background-size: cover;
+  	background-position: 100% 0;
+  	background-repeat: no-repeat;
+  	font-family: Arial;
+  	line-height: 1;
+  	color: black;
+  	margin: 0px;
+  	padding: 0px;
+  	border: 0px;
+  	outline: 0px;
+  	font-weight: inherit;
+  	font-style: inherit;
+  	font-size: 100%;
+  	vertical-align: baseline;
+}
+#page-wrap{
+	width: 90%;
+	height: 100%;
+	margin-top: 40px;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 40px;
+	padding: 10px;
+	background: rgba(208, 207, 219, 0.92);
+}
+.but1{
+	position: absolute;
+	margin-left: 533px;
+	margin-top: 60px;
+}
+.but2{
+	position: absolute;
+	margin-top: 120px;
+	margin-left: 526px;
+}
+.but4{
+	position: absolute;
+	margin-top: 180px;
+	margin-left: 553px;
+}
+#butoane{margin-top: 40px;}
+header{
+	clear: both;
+	margin-bottom: 20px;
+}
+button{
+	background: blue;
+	color: #FFF;
+	border: none;
+	border-radius: 7px;
+	font-size: 25px;
+	font-weight: bold;
+	cursor: pointer;
+	padding: 11px;
+}
+img{
+	width: 250px;
+	height: 250px;
+	position: absolute;
+	margin-left: 482px;
+	margin-top: 10px;
+}
+p{
+	text-align: center;
+	font-weight: bold;
+	font-size: 30px;
+}
+footer{
+		margin-top: 400px;
+		padding-top: 0px;
+		text-align: right;
+		font-style: italic;
+		clear: both;
+}
+footer p{
+	text-align: right;
+	font-size: 20px;
+}
+video{
+	margin-left: 300px;
+	width: 600px;
+	height: 400px;
+}
+#buton_camera{
+	margin-top: 10px;
+	margin-left: 500px;
+	font-size: 10px;
+}
+
+input{
+	padding: 10px;
+    margin-left: 450px;
+    border-radius: 6px;
+}
+#id_speak1{
+	padding: 10px;
+	font-size: 17px;
+}
+#id_speak{
+	margin-left: 550px;
+}
+.f1{
+	margin-top: 50px;
+}
+.f2{
+	margin-top:190px;
+}
+#id_button_gps{
+	margin-left: 530px;
+}
+.atingere{
+	position: absolute;
+	margin-top: 240px;
+	margin-left: 530px;
+}
