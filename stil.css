@@ -30,6 +30,7 @@ body{
 .but2{
 	position: absolute;
 	margin-top: 50px;
+	margin-left: 2px;
 	
 }
 .but4{
@@ -38,7 +39,8 @@ body{
 	margin-left: 20px;
 	
 }
-#butoane{margin-top: 20px;}
+#butoane{margin-top: 20px;
+margin-left: 70px;}
 header{
 	clear: both;
 	margin-bottom: 20px;
@@ -52,20 +54,21 @@ button{
 	font-weight: bold;
 	cursor: pointer;
 	padding: 8px;
+	margin-left: 15px;
 
 }
 img{
 	width: 250px;
 	height: 250px;
 	position: absolute;
-	margin-left: 5px;
+	margin-left: 15px;
 	margin-top: 10px;
 }
 p{
 	text-align: left;
 	font-weight: bold;
 	font-size: 20px;
-	margin-left: 5px;
+	margin-left: 15px;
 }
 .margin{
 	margin-left: 45px;
@@ -95,6 +98,7 @@ video{
 input{
 	padding: 8px;
     border-radius: 6px;
+    margin-left: 15px;
 }
 #id_speak1{
 	padding: 8px;
@@ -111,10 +115,11 @@ input{
 .atingere{
 	position: absolute;
 	margin-top: 150px;
+	margin-left: 2px;
 	
 }
 .principal{
-	margin-left: 15px;
+	margin-left: 85px;
 }
 .refresh{
 	margin-left:15px; 
