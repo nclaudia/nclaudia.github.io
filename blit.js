@@ -36,6 +36,12 @@ if (SUPPORTS_MEDIA_DEVICES) {
             advanced: [{torch: true}]
           });
         });
+        const btn = document.querySelector('.switch1');
+        btn.addEventListener('click', function(){
+          track.applyConstraints({
+            advanced: [{torch: false}]
+          });
+        });
       });
     });
   });
