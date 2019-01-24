@@ -40,7 +40,7 @@ body{
 	
 }
 #butoane{margin-top: 20px;
-margin-left: 120px;}
+margin-left: 125px;}
 header{
 	clear: both;
 	margin-bottom: 20px;
@@ -68,7 +68,7 @@ p{
 	text-align: left;
 	font-weight: bold;
 	font-size: 20px;
-	margin-left: 8px;
+	margin-left: 15px;
 }
 .margin{
 	margin-left: 45px;
@@ -83,7 +83,7 @@ footer{
 footer p{
 	text-align: left;
 	font-size: 20px;
-	margin-left: 0px;
+	margin-left: 15px;
 }
 video{
 	margin-top: 5px;
@@ -119,7 +119,7 @@ input{
 	
 }
 .principal{
-	margin-left: 135px;
+	margin-left: 140px;
 }
 .refresh{
 	margin-left:15px; 
