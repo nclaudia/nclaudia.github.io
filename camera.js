@@ -10,9 +10,3 @@ function on_get_cam(){
 	navigator.mediaDevices.getUserMedia(c).
 	then(on_cam_ok).catch(on_cam_error);
 }
-const btn = document.querySelector('.switch');
-        btn.addEventListener('click', function(){
-          track.applyConstraints({
-            advanced: [{torch: true}]
-          });
-        });
