@@ -1,0 +1,115 @@
+body{
+	background-color: #3B3131;
+  	background-image: url(mobile.jpg);
+  	background-size: cover;
+  	background-position: 100% 0;
+  	background-repeat: no-repeat;
+  	font-family: Arial;
+  	line-height: 1;
+  	color: black;
+  	margin: 0px;
+  	padding: 0px;
+  	border: 0px;
+  	outline: 0px;
+  	font-weight: inherit;
+  	font-style: inherit;
+  	font-size: 100%;
+  	vertical-align: baseline;
+  	height: 620px;
+}
+#page-wrap{
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	background: rgba(208, 207, 219, 0.92);
+}
+.but1{
+	position: absolute;
+	margin-left: 6px;
+	margin-top: 0px;
+}
+.but2{
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 2px;
+	
+}
+.but4{
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 20px;
+	
+}
+#butoane{margin-top: 20px;
+margin-left: 125px;}
+header{
+	clear: both;
+	margin-bottom: 20px;
+}
+button{
+	background: blue;
+	color: #FFF;
+	border: none;
+	border-radius: 7px;
+	font-size: 17px;
+	font-weight: bold;
+	cursor: pointer;
+	padding: 8px;
+	margin-left: 15px;
+
+}
+img{
+	width: 250px;
+	height: 250px;
+	position: absolute;
+	margin-left: 15px;
+	margin-top: 10px;
+}
+p{
+	text-align: left;
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: 15px;
+}
+.margin{
+	margin-left: 45px;
+}
+video{
+	margin-top: 5px;
+	width: 320px;
+	height: 300px;
+}
+#buton_camera{
+	margin-top: 10px;
+	font-size: 10px;
+}
+
+input{
+	padding: 8px;
+    border-radius: 6px;
+    margin-left: 15px;
+}
+#id_speak1{
+	padding: 8px;
+	font-size: 17px;
+}
+
+.f1{
+	margin-top: 50px;
+}
+.f2{
+	margin-top:190px;
+}
+
+.atingere{
+	position: absolute;
+	margin-top: 150px;
+	margin-left: 2px;
+	
+}
+.principal{
+	margin-left: 140px;
+}
+.refresh{
+	margin-left:15px; 
+}
