@@ -1,0 +1,232 @@
+body{
+	background-color: #3B3131;
+  	background-image: url(mobile.jpg);
+  	background-size: cover;
+  	background-position: 100% 0;
+  	background-repeat: no-repeat;
+  	font-family: Arial;
+  	line-height: 1;
+  	color: black;
+  	margin: 0px;
+  	padding: 0px;
+  	border: 0px;
+  	outline: 0px;
+  	font-weight: inherit;
+  	font-style: inherit;
+  	font-size: 100%;
+  	vertical-align: baseline;
+  	height: 620px;
+}
+#page-wrap{
+	width: 100%;
+	height: 100%;
+	padding: 10px;
+	background: rgba(208, 207, 219, 0.92);
+}
+.but1{
+	position: absolute;
+	margin-left: 6px;
+	margin-top: 0px;
+}
+.but2{
+	position: absolute;
+	margin-top: 50px;
+	margin-left: 2px;
+	
+}
+.but4{
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 20px;
+	
+}
+#butoane{margin-top: 20px;
+margin-left: 125px;}
+header{
+	clear: both;
+	margin-bottom: 20px;
+}
+button{
+	background: blue;
+	color: #FFF;
+	border: none;
+	border-radius: 7px;
+	font-size: 17px;
+	font-weight: bold;
+	cursor: pointer;
+	padding: 8px;
+	margin-left: 15px;
+
+}
+img{
+	width: 250px;
+	height: 250px;
+	position: absolute;
+	margin-left: 15px;
+	margin-top: 10px;
+}
+p{
+	text-align: left;
+	font-weight: bold;
+	font-size: 20px;
+	margin-left: 15px;
+}
+.margin{
+	margin-left: 45px;
+}
+video{
+	margin-top: 5px;
+	width: 320px;
+	height: 300px;
+}
+#buton_camera{
+	margin-top: 10px;
+	font-size: 10px;
+}
+
+input{
+	padding: 8px;
+    border-radius: 6px;
+    margin-left: 15px;
+}
+#id_speak1{
+	padding: 8px;
+	font-size: 17px;
+}
+
+.f1{
+	margin-top: 50px;
+}
+.f2{
+	margin-top:190px;
+}
+
+.atingere{
+	position: absolute;
+	margin-top: 150px;
+	margin-left: 10px;
+	
+}
+.principal{
+	margin-left: 105px;
+	margin-top: 10px;
+}
+.refresh{
+	margin-left:15px; 
+}
+#id_button5{
+	margin-top: 204px;
+    margin-left: 128px;
+}
+
+
+
+.container{
+  width: 500px;
+  height: 300px;
+  margin-left:100px;
+  margin-top: 20px;
+  border-radius: 25px;
+  box-shadow: 0 20px 40px 0px rgba(0,0,0,0.3)
+}
+.header {
+  height: 20%;
+  background-color: #0000ff4f;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+  text-align: center;
+  position:relative;
+}
+#temp, #humidity-div {
+  font-family: "Arial";
+  font-weight: bold;
+  font-size: 60px;
+  color: black;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.city-icon-holder {
+  position:absolute;
+  left: 25%;
+  top: 40%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+#city-name {
+  font-family: "Courier New";
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+}
+
+#icon {
+  width:75%;
+	height: 250%;
+	position: absolute;
+	margin-left: -60px;
+	margin-top: 0px;
+}
+
+#main{
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.city-icon {
+  height: 80%;
+  width: 50%;
+  border-bottom-left-radius: 25px;
+  background-color: #0000ff4f;
+}
+
+.temperature {
+  position: absolute;
+  left: 50%;
+  top:0%;
+  height: 40%;
+  width: 50%;
+  background-color: #0000ff4f;
+}
+
+.humidity {
+  height: 40%;
+  width: 50%;
+  position:absolute;
+  left:50%;
+  top:40%;
+  border-bottom-right-radius: 25px;
+  background-color: #0000ff4f;
+}
+
+#search-btn {
+  width: 40px;
+  height:40px;
+  color: #eee;
+}
+
+#search-txt {
+  color: black;
+  height:30px;
+  border-radius: 10px;
+  border-style:none;
+  outline:none;
+ 
+  text-align:center;
+      font-size: 13px;
+    font-weight: bold;
+}
+
+.search {
+  position: absolute;
+  left: 50%;
+  top:50%;
+  -webkit-transform:translate(-50%,-50%);
+          transform:translate(-50%,-50%);
+}
