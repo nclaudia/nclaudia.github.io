@@ -6,6 +6,7 @@ let cityName = document.getElementById("city-name");
 let icon = document.getElementById("icon");
 let temperature = document.getElementById("temp");
 let humidity = document.getElementById("humidity-div");
+let pressure = document.getElementById("pressure-div");
 
 searchButton.addEventListener("click", findWeatherDetails);
 searchInput.addEventListener("keyup", enterPressed);
@@ -18,7 +19,6 @@ function enterPressed(event) {
 
 function findWeatherDetails() {
   if (searchInput.value === "") {
-  
   }else {
     let searchLink = "https://api.openweathermap.org/data/2.5/weather?q=" + searchInput.value + "&appid="+appKey;
    httpRequestAsync(searchLink, theResponse);
@@ -29,8 +29,9 @@ function theResponse(response) {
   let jsonObject = JSON.parse(response);
   cityName.innerHTML = jsonObject.name;
   icon.src = "http://openweathermap.org/img/w/" + jsonObject.weather[0].icon + ".png";
-  temperature.innerHTML = parseInt(jsonObject.main.temp - 273) + "°";
+  temperature.innerHTML = parseInt(jsonObject.main.temp - 273.00) + "°";
   humidity.innerHTML = jsonObject.main.humidity + "%";
+  pressure.innerHTML = jsonObject.main.pressure + "hpa";
 }
 
 function httpRequestAsync(url, callback)

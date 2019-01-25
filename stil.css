@@ -152,7 +152,7 @@ input{
 .city-icon-holder {
   position:absolute;
   left: 25%;
-  top: 40%;
+  top: 20%;
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
   text-align: center;
@@ -160,7 +160,7 @@ input{
 
 #city-name {
   font-family: "Courier New";
-  font-size: 30px;
+  font-size: 50px;
   font-weight: bold;
   color: black;
 }
@@ -190,25 +190,25 @@ input{
   position: absolute;
   left: 50%;
   top:0%;
-  height: 40%;
+  height: 25%;
   width: 50%;
   background-color: #0000ff4f;
 }
 
 .humidity {
-  height: 40%;
+  height: 25%;
   width: 50%;
   position:absolute;
   left:50%;
-  top:40%;
-  border-bottom-right-radius: 25px;
+  top:25%;
+  /*border-bottom-right-radius: 25px;*/
   background-color: #0000ff4f;
 }
 
 #search-btn {
   width: 40px;
   height:40px;
-  color: #eee;
+  color: black;
 }
 
 #search-txt {
@@ -229,4 +229,25 @@ input{
   top:50%;
   -webkit-transform:translate(-50%,-50%);
           transform:translate(-50%,-50%);
+}
+
+#pressure-div {
+  font-family: "Arial";
+  font-weight: bold;
+  font-size: 60px;
+  color: black;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+.pressure {
+  height: 30%;
+  width: 50%;
+  position:absolute;
+  left:50%;
+  top:50%;
+  border-bottom-right-radius: 25px;
+  background-color: #0000ff4f;
 }
